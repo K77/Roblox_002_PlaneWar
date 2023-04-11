@@ -1,0 +1,82 @@
+{
+  "name": "Roblox_002_PlaneWar",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "RojoShare": {
+        "$path": "src/2_shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "RojoServer": {
+        "$path": "src/3_server"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "RojoClientFirst": {
+          "$path": "src/0_clientFirst"
+      }
+    },
+    "ServerStorage": {
+      "RojoServerStorage": {
+          "$path": "src/4_serverStorage"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "RojoClient": {
+          "$path": "src/1_client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
