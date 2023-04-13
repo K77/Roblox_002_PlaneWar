@@ -2,6 +2,7 @@
 _G.PathRojoShare = game:GetService("ReplicatedStorage"):WaitForChild("2_RojoShare")
 _G.ConstShare = require(_G.PathRojoShare.const_share)
 
-
+local s_prompt = require(script.Parent.s_prompt)
+local s_status = require(script.Parent.s_status)
 
 print("server inited!!!")

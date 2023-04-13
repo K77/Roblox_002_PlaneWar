@@ -1,6 +1,7 @@
 local module = {}
 local ProximityPromptService = game:GetService("ProximityPromptService")
 local ServerScriptService = game:GetService("ServerScriptService")
+local s_status = require(script.Parent.s_status)
 -- Detect when prompt is triggered
 local function onPromptTriggered(promptObject, player)
 	if promptObject.parent == nil then return end
@@ -10,6 +11,8 @@ local function onPromptTriggered(promptObject, player)
 	--	player.Money.Value = player.Money.Value+1
 	--	return
 	--end
+
+	s_status.goInBattle(player)
 	if promptObject.Name == "ProximityPromptThrowPoint" then
 	end
 end
