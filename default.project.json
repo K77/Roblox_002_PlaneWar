@@ -16,20 +16,13 @@
     },
 
     "ReplicatedFirst": {
-      "0_RojoClientFirst": {
-          "$path": "src/0_clientFirst"
+      "1_RojoClientFirst": {
+          "$path": "src/1_client"
       }
     },
     "ServerStorage": {
       "4_RojoServerStorage": {
           "$path": "src/4_serverStorage"
-      }
-    },
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "1_RojoClient": {
-          "$path": "src/1_client"
-        }
       }
     },
 
