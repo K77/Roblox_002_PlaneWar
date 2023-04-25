@@ -1,5 +1,7 @@
 local module = {}
 
+module.debug = true
+
 _G.EnumStatus = {
     None = 0,
     goInBattle =1,
